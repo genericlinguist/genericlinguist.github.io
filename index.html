@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<!-- This layout is based in part on Seth Cable's website https://people.umass.edu/scable/ -->
+
+	<!-- Here's a basic navigation bar based on https://www.w3schools.com/howto/howto_js_topnav.asp -->
+	<head>
+		<style>
+			/* Add a black background color to the top navigation */
+			.topnav {
+				overflow: hidden;
+			}
+
+			/* Style the links inside the navigation bar */
+			.topnav a {
+				float: right;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			/* Change the color of links on hover */
+			.topnav a:hover {
+				color: gray;
+			}
+
+			/* Add a color to the active/current link */
+			.topnav a.active {
+				color: black;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<div class="topnav">
+		<a href="genericlinguist.github.io/cv.html">CV</a>
+		<a href="genericlinguist.github.io/presentations.html">Presentations</a>
+		<a href="genericlinguist.github.io/papers.html">Papers</a>
+		<a class="active" href="">Home</a>
+	</div>
+
+	<!-- This is a table, to see the borders, change it to <table cellpadding=0 border="1"> -->
+	<table cellpadding=0>
+		<!-- <tr> begins a TableRow, </tr> ends one -->
+		<tr>
+			<!-- <td> begins a TableDataCell (I think of it as a column), </td> ends one -->
+			<td width="305" valign=top>
+				<!-- Change the filename here to use a different picture -->
+				<img src="genericlinguist.png" width="375" height="375">
+			</td>
+
+			<td width=22></td>
+
+			<td width="600">
+			
+			<!-- <h1> is a Heading, which is bold and in a large font -->
+			<h1>Generic Linguist</h1>
+		
+			I work on an exciting topic that is relevant to human language!
+		
+			<br>
+		
+			Email me to get in touch: example.email@place.I.work
+			</td>
+		</tr>
+		
+		<tr>
+			<!-- To keep everything aligned, these TableDataCells span 3 columns -->
+			<td colspan="3">
+				<!-- <h2> is another Heading, which is bold but in a smaller font than <h1> -->
+				<center><h2>Recent Activity</h2></center>
+			</td>
+		</tr>
+		<tr>
+		<td colspan="3">
+				<!-- <ul> is an UnnumberedList -->
+				<ul>
+					<!-- <li> is a ListItem -->
+					<!-- <i> italicizes -->
+					<li>My article <i>What is syntax, actually?</i> has just been accepted for publication in Journal</li>
+					<li>I gave a talk at the Ninth Annual Conference</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<center><h2>Upcoming</h2></center>
+			</td>
+		</tr>
+		<tr>
+		<td colspan="3">
+				<ul>
+					<li>I will be giving a talk at the Tenth Annual Conference</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</html>
